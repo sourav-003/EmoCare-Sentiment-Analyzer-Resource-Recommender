@@ -5,8 +5,6 @@ warnings.filterwarnings("ignore")
 
 print("--- Loading Gradio and Transformers ---")
 
-# 🔹 Replace this with your Hugging Face model repo path
-# Example: "souravkumar003/mental-health-sentiment-biomedbert"
 model_path = "your-username/mental-health-sentiment-biomedbert"
 
 print(f"Loading trained model from Hugging Face Hub: {model_path}")
